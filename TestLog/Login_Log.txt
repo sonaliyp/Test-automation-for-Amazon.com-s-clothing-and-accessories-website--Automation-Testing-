@@ -1,0 +1,19 @@
+
+
+
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 3000 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |clickAndWait | css=#nav-your-account > span.nav-button-mid.nav-sprite > span.nav-button-inner.nav-sprite > span.nav-button-title.nav-button-line2 | |
+    [info] Executing: |type | id=ap_email | phsonali@gmail.com |
+    [info] Executing: |type | id=ap_password | 12345678abcd |
+    [info] Executing: |clickAndWait | id=signInSubmit-input | |
+    [info] Executing: |clickAndWait | css=#your-orders > span | |
+    [info] Executing: |type | id=searchOrdersInput | clothing & Accessories |
+    [info] Executing: |clickAndWait | css=span > input[type="submit"] | |
+    [info] Executing: |select | id=orderFilter | label=2013 |
+    [info] Executing: |clickAndWait | css=#order-dropdown-form > span.in-amzn-btn.btn-prim-med > span > input[type="submit"] | |
+    [info] Executing: |clickAndWait | id=nav-item-signout | | 
+

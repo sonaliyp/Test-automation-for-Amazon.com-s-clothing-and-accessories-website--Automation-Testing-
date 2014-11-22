@@ -1,0 +1,23 @@
+
+
+
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 3000 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |clickAndWait | link=Accessories | |
+    [info] Executing: |clickAndWait | link=Shop All Women | |
+    [info] Executing: |clickAndWait | css=p | |
+    [info] Executing: |clickAndWait | css=span.lrg.bold | |
+    [info] Executing: |clickAndWait | link=40 customer reviews | |
+    [info] Executing: |clickAndWait | css=img[alt="Add to cart"] | |
+    [info] Executing: |pause | 3000 | |
+    [info] Executing: |clickAndWait | link=Edit your Cart | |
+    [info] Executing: |type | name=quantity.C2C957KCE5F775 | 999 |
+    [info] Executing: |click | id=update-button-C2C957KCE5F775 | |
+    [info] Executing: |click | name=quantity.C2C957KCE5F775 | |
+    [info] Executing: |type | name=quantity.C2C957KCE5F775 | 0 |
+    [info] Executing: |click | id=remove-button-C2C957KCE5F775 | | 
+
+

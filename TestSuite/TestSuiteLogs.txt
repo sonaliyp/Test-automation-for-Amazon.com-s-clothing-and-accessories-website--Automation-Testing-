@@ -1,0 +1,90 @@
+
+
+    [info] Changed test case
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 200 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |clickAndWait | link=Shoes | |
+    [info] Executing: |clickAndWait | css=div.left_nav > ul > li > a | |
+    [info] Executing: |clickAndWait | link=New Arrivals | |
+    [info] Executing: |clickAndWait | css=span.lrg.bold | |
+    [info] Executing: |click | id=dp | |
+    [info] Executing: |select | id=native_dropdown_selected_size_name | label=11 B(M) US |
+    [info] Executing: |click | id=native_size_name_12 | |
+    [info] Executing: |clickAndWait | id=add-to-cart-button | |
+    [info] Executing: |clickAndWait | link=Edit your Cart | |
+    [info] Executing: |type | name=quantity.C10NBLZ1OQFRUX | 0 |
+    [info] Executing: |click | id=remove-button-C10NBLZ1OQFRUX | |
+    [info] Changed test case
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 3000 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |clickAndWait | link=Accessories | |
+    [info] Executing: |clickAndWait | link=Shop All Women | |
+    [info] Executing: |clickAndWait | css=p | |
+    [info] Executing: |clickAndWait | css=span.lrg.bold | |
+    [info] Executing: |clickAndWait | link=40 customer reviews | |
+    [info] Executing: |clickAndWait | css=img[alt="Add to cart"] | |
+    [info] Executing: |pause | 3000 | |
+    [info] Executing: |clickAndWait | link=Edit your Cart | |
+    [info] Executing: |type | name=quantity.C2C957KCE5F775 | 999 |
+    [info] Executing: |click | id=update-button-C2C957KCE5F775 | |
+    [info] Executing: |click | name=quantity.C2C957KCE5F775 | |
+    [info] Executing: |type | name=quantity.C2C957KCE5F775 | 0 |
+    [info] Executing: |click | id=remove-button-C2C957KCE5F775 | | 
+    [info] Changed test case
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 200 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |click | id=twotabsearchtextbox | |
+    [info] Executing: |type | id=twotabsearchtextbox | jacket |
+    [info] Executing: |pause | 100 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Changed test case
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |clickAndWait | css=#nav-your-account > span.nav-button-mid.nav-sprite > span.nav-button-inner.nav-sprite > span.nav-button-title.nav-button-line2 | |
+    [info] Executing: |type | id=ap_email | phsonali@gmail.com |
+    [info] Executing: |type | id=ap_password | 12345678abcd |
+    [info] Executing: |clickAndWait | id=signInSubmit-input | |
+    [info] Executing: |clickAndWait | css=#your-orders > span | |
+    [info] Executing: |type | id=searchOrdersInput | clothing & Accessories |[info] Executing: |clickAndWait | css=span > input[type="submit"] | |
+    [info] Executing: |select | id=orderFilter | label=2013 |
+    [info] Executing: |clickAndWait | css=#order-dropdown-form > span.in-amzn-btn.btn-prim-med > span > input[type="submit"] | |
+    [info] Executing: |clickAndWait | id=nav-item-signout | | 
+    [info] Changed test case
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 200 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |clickAndWait | link=Watches | |
+    [info] Executing: |clickAndWait | css=div.left_nav > ul > li > a | |
+    [info] Executing: |clickAndWait | link=Best Everyday Watches | |
+    [info] Executing: |pause | 200 | |
+    [info] Executing: |clickAndWait | css=span.lrg.bold | |
+    [info] Executing: |clickAndWait | id=add-to-wishlist-button-submit | |
+    [info] Executing: |type | id=ap_email | phsonali@gmail.com |
+    [info] Executing: |type | id=ap_password | 12345678abcd |
+    [info] Executing: |clickAndWait | id=signInSubmit-input | |
+    [info] Executing: |clickAndWait | id=nav-item-signout | |
+    [info] Changed test case
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |clickAndWait | id=nav-signin-text | |
+    [info] Executing: |type | id=ap_email | phsonali@gmail.com |
+    [info] Executing: |type | id=ap_password | 12345678abcd |
+    [info] Executing: |clickAndWait | id=signInSubmit-input | |
+    [info] Executing: |clickAndWait | css=#nav-wishlist > span.nav-button-mid.nav-sprite > span.nav-button-inner.nav-sprite > span.nav-button-title.nav-button-line2 | |
+    [info] Executing: |clickAndWait | css=span.wlProductInfoRow.wlBuyButton > a > span.swSprite.s_add2CartSm | |
+    [info] Executing: |clickAndWait | link=Edit your Cart | |
+    [info] Executing: |type | name=quantity.C3HZ3FWTWSOEYQ | 0 |
+    [info] Executing: |click | id=remove-button-C3HZ3FWTWSOEYQ | | 
+

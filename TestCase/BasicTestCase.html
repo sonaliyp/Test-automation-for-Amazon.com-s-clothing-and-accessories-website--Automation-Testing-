@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.google.com/" />
+<title>BasicTest_addcart</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">BasicTest_addcart</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.amazon.com/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=searchDropdownBox</td>
+	<td>label=Clothing &amp; Accessories</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;search-alias=apparel&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.nav-submit-input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Shoes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.left_nav &gt; ul &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=New Arrivals</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.lrg.bold</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=native_dropdown_selected_size_name</td>
+	<td>label=11 B(M) US</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=native_size_name_12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=add-to-cart-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit your Cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=quantity.C10NBLZ1OQFRUX</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=remove-button-C10NBLZ1OQFRUX</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

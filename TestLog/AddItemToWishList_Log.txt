@@ -1,0 +1,19 @@
+
+
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 200 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |clickAndWait | link=Watches | |
+    [info] Executing: |clickAndWait | css=div.left_nav > ul > li > a | |
+    [info] Executing: |clickAndWait | link=Best Everyday Watches | |
+    [info] Executing: |pause | 200 | |
+    [info] Executing: |clickAndWait | css=span.lrg.bold | |
+    [info] Executing: |clickAndWait | id=add-to-wishlist-button-submit | |
+    [info] Executing: |type | id=ap_email | phsonali@gmail.com |
+    [info] Executing: |type | id=ap_password | 12345678abcd |
+    [info] Executing: |clickAndWait | id=signInSubmit-input | |
+    [info] Executing: |clickAndWait | id=nav-item-signout | |
+
+

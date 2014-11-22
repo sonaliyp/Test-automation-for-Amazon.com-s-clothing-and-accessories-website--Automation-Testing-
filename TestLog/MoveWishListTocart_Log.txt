@@ -1,0 +1,14 @@
+
+
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |clickAndWait | id=nav-signin-text | |
+    [info] Executing: |type | id=ap_email | phsonali@gmail.com |
+    [info] Executing: |type | id=ap_password | 12345678abcd |
+    [info] Executing: |clickAndWait | id=signInSubmit-input | |
+    [info] Executing: |clickAndWait | css=#nav-wishlist > span.nav-button-mid.nav-sprite > span.nav-button-inner.nav-sprite > span.nav-button-title.nav-button-line2 | |
+    [info] Executing: |clickAndWait | css=span.wlProductInfoRow.wlBuyButton > a > span.swSprite.s_add2CartSm | |
+    [info] Executing: |clickAndWait | link=Edit your Cart | |
+    [info] Executing: |type | name=quantity.C3HZ3FWTWSOEYQ | 0 |
+    [info] Executing: |click | id=remove-button-C3HZ3FWTWSOEYQ | |
+    [info] Executing: |clickAndWait | id=nav-item-signout | | 
+

@@ -1,0 +1,12 @@
+
+
+    [info] Executing: |open | http://www.amazon.com/ | |
+    [info] Executing: |select | id=searchDropdownBox | label=Clothing & Accessories |
+    [info] Executing: |click | css=option[value="search-alias=apparel"] | |
+    [info] Executing: |pause | 200 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | |
+    [info] Executing: |click | id=twotabsearchtextbox | |
+    [info] Executing: |type | id=twotabsearchtextbox | jacket |
+    [info] Executing: |pause | 100 | |
+    [info] Executing: |clickAndWait | css=input.nav-submit-input | | 
+
